@@ -11,7 +11,7 @@ struct Args {
     ip_flag: Option<String>,
 
     #[arg(short = 'p', long = "port")]
-    port_flag: Option<u16>,
+    port_flag: Option<String>,
 
     #[arg(short = 'd', long = "duration")]
     duration_flag: Option<u64>,
