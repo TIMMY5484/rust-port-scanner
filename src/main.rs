@@ -172,7 +172,9 @@ fn main() {
 
     let now = Instant::now();
 
-    println!();
+    if !args.json {
+        println!();
+    }
 
     let json_results = Arc::new(Mutex::new(Vec::new()));
 
