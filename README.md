@@ -8,7 +8,7 @@ to run the file
 
 ## Syntax
 
-Ranges are defined with [FIRST]-[LAST] (ex: 192.160.0.1-255 (IP addresses) or 1-65535 (ports))
+Ranges are deffined with [FIRST]-[LAST] (ex: 192.160.0.1-255 (IP addresses) or 1-65535 (ports))
 
 ## Flags:
 
