@@ -1,0 +1,9 @@
+[package]
+name = "rust-port-scaner"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = {version = "4.5.32", features = ["derive"]}
+num_cpus = "1.17.0"
+threadpool = "1.8.1"
